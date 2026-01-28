@@ -3,5 +3,14 @@
 		{
 			"path": "."
 		}
-	]
+	],
+	"settings": {
+		"cSpell.words": [
+			"indexeddb",
+			"ondone",
+			"ontransaction",
+			"signup",
+			"typedly"
+		]
+	}
 }
