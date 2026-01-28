@@ -1,6 +1,7 @@
 {
   "name": "angular.x",
   "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,6 +10,7 @@
     "test": "ng test",
     "serve:ssr:angular.x": "node dist/angular.x/server/server.mjs",
     "storybook": "ng run angular.x:storybook",
+    "ng-update": "ng update @angular/cli @angular/core",
     "build-storybook": "ng run angular.x:build-storybook"
   },
   "prettier": {
