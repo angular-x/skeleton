@@ -1,0 +1,19 @@
+@use "tailwindcss";
+// @use "../node_modules/tailwindcss-primeui/v4/index.css";
+@import "../node_modules/tailwindcss-primeui/v4/utils/backface.css";
+@import "../node_modules/tailwindcss-primeui/v4/utils/delay.css";
+@import "../node_modules/tailwindcss-primeui/v4/utils/direction.css";
+@import "../node_modules/tailwindcss-primeui/v4/utils/duration.css";
+@import "../node_modules/tailwindcss-primeui/v4/utils/fillMode.css";
+@import "../node_modules/tailwindcss-primeui/v4/utils/iterationCount.css";
+@import "../node_modules/tailwindcss-primeui/v4/utils/playState.css";
+@import "../node_modules/tailwindcss-primeui/v4/utils/timingFunction.css";
+@import "../node_modules/tailwindcss-primeui/v4/utils/preset.css";
+@import "../node_modules/tailwindcss-primeui/v4/utils/enterleave.css";
+@import "../node_modules/tailwindcss-primeui/v4/utils/animation.css";
+@import "../node_modules/tailwindcss-primeui/v4/utils/keyframes.css";
+@import "../node_modules/tailwindcss-primeui/v4/utils/variants.css";
+
+@config "../tailwind.config.js";
+
+@custom-variant dark (&:where(.my-app-dark, .my-app-dark *));
