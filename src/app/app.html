@@ -1,0 +1,17 @@
+<ax-layout
+  (onLeftCollapsed)="onLeftCollapsed($event)"
+  [px]="'0'" 
+  [py]="'0'"
+  [bg]="'surface-50'"
+  [showRight]="true"
+  [flexDirection]="'col'"
+  [flexWrap]="'nowrap'"
+  [menuItems]="menuItems()"
+  [title]="currentLabel()"
+>
+  <!-- Router Outlet -->
+  <ng-container slot="center"><router-outlet></router-outlet></ng-container>
+
+  <div slot="right" class="w-128 h-full p-4"></div>
+
+</ax-layout>
