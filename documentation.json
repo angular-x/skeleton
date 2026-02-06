@@ -29,820 +29,13 @@
     ],
     "injectables": [
         {
-            "name": "CryptoStorage",
-            "id": "injectable-CryptoStorage-8c9903b094bd49d5bf540345932da9f748e8fc6438231e13359f17194f94eb27431a65bd67c81fd5ecf59803f20b41944d71cde92ac8016efcd8beb25f2652e7",
-            "file": "src/app/crypto/crypto-storage.class.ts",
-            "properties": [
-                {
-                    "name": "#hash",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "string",
-                    "indexKey": "",
-                    "optional": true,
-                    "description": "",
-                    "line": 23,
-                    "rawdescription": "\n\n\n",
-                    "modifierKind": [
-                        123
-                    ]
-                },
-                {
-                    "name": "#name",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Name",
-                    "indexKey": "",
-                    "optional": false,
-                    "description": "",
-                    "line": 18,
-                    "rawdescription": "\n\n\n",
-                    "modifierKind": [
-                        123
-                    ]
-                }
-            ],
-            "methods": [
-                {
-                    "name": "#checkPassphrase",
-                    "args": [
-                        {
-                            "name": "passPhrase",
-                            "type": "string",
-                            "deprecated": false,
-                            "deprecationMessage": ""
-                        }
-                    ],
-                    "optional": false,
-                    "returnType": "boolean",
-                    "typeParameters": [],
-                    "line": 89,
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "rawdescription": "\n\n\n",
-                    "description": "",
-                    "modifierKind": [
-                        123
-                    ],
-                    "jsdoctags": [
-                        {
-                            "name": {
-                                "pos": 1442,
-                                "end": 1452,
-                                "kind": 80,
-                                "id": 0,
-                                "flags": 16842752,
-                                "transformFlags": 0,
-                                "escapedText": "passPhrase"
-                            },
-                            "type": "string",
-                            "deprecated": false,
-                            "deprecationMessage": "",
-                            "tagName": {
-                                "pos": 1436,
-                                "end": 1441,
-                                "kind": 80,
-                                "id": 0,
-                                "flags": 16842752,
-                                "transformFlags": 0,
-                                "escapedText": "param"
-                            },
-                            "comment": ""
-                        },
-                        {
-                            "tagName": {
-                                "pos": 1459,
-                                "end": 1466,
-                                "kind": 80,
-                                "id": 0,
-                                "flags": 16842752,
-                                "transformFlags": 0,
-                                "escapedText": "returns"
-                            },
-                            "comment": ""
-                        }
-                    ]
-                },
-                {
-                    "name": "#decrypt",
-                    "args": [
-                        {
-                            "name": "value",
-                            "type": "any",
-                            "deprecated": false,
-                            "deprecationMessage": ""
-                        },
-                        {
-                            "name": "passPhrase",
-                            "type": "string",
-                            "deprecated": false,
-                            "deprecationMessage": "",
-                            "optional": true
-                        }
-                    ],
-                    "optional": false,
-                    "returnType": "string",
-                    "typeParameters": [],
-                    "line": 100,
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "rawdescription": "\n\n\n",
-                    "description": "",
-                    "modifierKind": [
-                        123
-                    ],
-                    "jsdoctags": [
-                        {
-                            "name": {
-                                "pos": 1632,
-                                "end": 1637,
-                                "kind": 80,
-                                "id": 0,
-                                "flags": 16842752,
-                                "transformFlags": 0,
-                                "escapedText": "value"
-                            },
-                            "type": "any",
-                            "deprecated": false,
-                            "deprecationMessage": "",
-                            "tagName": {
-                                "pos": 1626,
-                                "end": 1631,
-                                "kind": 80,
-                                "id": 0,
-                                "flags": 16842752,
-                                "transformFlags": 0,
-                                "escapedText": "param"
-                            },
-                            "comment": ""
-                        },
-                        {
-                            "name": {
-                                "pos": 1650,
-                                "end": 1660,
-                                "kind": 80,
-                                "id": 0,
-                                "flags": 16842752,
-                                "transformFlags": 0,
-                                "escapedText": "passPhrase"
-                            },
-                            "type": "string",
-                            "deprecated": false,
-                            "deprecationMessage": "",
-                            "optional": true,
-                            "tagName": {
-                                "pos": 1644,
-                                "end": 1649,
-                                "kind": 80,
-                                "id": 0,
-                                "flags": 16842752,
-                                "transformFlags": 0,
-                                "escapedText": "param"
-                            },
-                            "comment": ""
-                        },
-                        {
-                            "tagName": {
-                                "pos": 1667,
-                                "end": 1674,
-                                "kind": 80,
-                                "id": 0,
-                                "flags": 16842752,
-                                "transformFlags": 0,
-                                "escapedText": "returns"
-                            },
-                            "comment": ""
-                        }
-                    ]
-                },
-                {
-                    "name": "#encrypt",
-                    "args": [
-                        {
-                            "name": "value",
-                            "type": "any",
-                            "deprecated": false,
-                            "deprecationMessage": ""
-                        },
-                        {
-                            "name": "passPhrase",
-                            "type": "string",
-                            "deprecated": false,
-                            "deprecationMessage": "",
-                            "optional": true
-                        }
-                    ],
-                    "optional": false,
-                    "returnType": "string",
-                    "typeParameters": [],
-                    "line": 114,
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "rawdescription": "\n\n\n",
-                    "description": "",
-                    "modifierKind": [
-                        123
-                    ],
-                    "jsdoctags": [
-                        {
-                            "name": {
-                                "pos": 1932,
-                                "end": 1937,
-                                "kind": 80,
-                                "id": 0,
-                                "flags": 16842752,
-                                "transformFlags": 0,
-                                "escapedText": "value"
-                            },
-                            "type": "any",
-                            "deprecated": false,
-                            "deprecationMessage": "",
-                            "tagName": {
-                                "pos": 1926,
-                                "end": 1931,
-                                "kind": 80,
-                                "id": 0,
-                                "flags": 16842752,
-                                "transformFlags": 0,
-                                "escapedText": "param"
-                            },
-                            "comment": ""
-                        },
-                        {
-                            "name": {
-                                "pos": 1950,
-                                "end": 1960,
-                                "kind": 80,
-                                "id": 0,
-                                "flags": 16842752,
-                                "transformFlags": 0,
-                                "escapedText": "passPhrase"
-                            },
-                            "type": "string",
-                            "deprecated": false,
-                            "deprecationMessage": "",
-                            "optional": true,
-                            "tagName": {
-                                "pos": 1944,
-                                "end": 1949,
-                                "kind": 80,
-                                "id": 0,
-                                "flags": 16842752,
-                                "transformFlags": 0,
-                                "escapedText": "param"
-                            },
-                            "comment": ""
-                        },
-                        {
-                            "tagName": {
-                                "pos": 1967,
-                                "end": 1974,
-                                "kind": 80,
-                                "id": 0,
-                                "flags": 16842752,
-                                "transformFlags": 0,
-                                "escapedText": "returns"
-                            },
-                            "comment": ""
-                        }
-                    ]
-                },
-                {
-                    "name": "#getKeyName",
-                    "args": [
-                        {
-                            "name": "key",
-                            "type": "Key",
-                            "deprecated": false,
-                            "deprecationMessage": ""
-                        }
-                    ],
-                    "optional": false,
-                    "returnType": "string",
-                    "typeParameters": [
-                        "Key"
-                    ],
-                    "line": 137,
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "rawdescription": "\n\n\n",
-                    "description": "",
-                    "modifierKind": [
-                        123
-                    ],
-                    "jsdoctags": [
-                        {
-                            "name": {
-                                "pos": 2440,
-                                "end": 2443,
-                                "kind": 80,
-                                "id": 0,
-                                "flags": 16842752,
-                                "transformFlags": 0,
-                                "escapedText": "key"
-                            },
-                            "type": "Key",
-                            "deprecated": false,
-                            "deprecationMessage": "",
-                            "tagName": {
-                                "pos": 2434,
-                                "end": 2439,
-                                "kind": 80,
-                                "id": 0,
-                                "flags": 16842752,
-                                "transformFlags": 0,
-                                "escapedText": "param"
-                            },
-                            "comment": ""
-                        },
-                        {
-                            "tagName": {
-                                "pos": 2450,
-                                "end": 2457,
-                                "kind": 80,
-                                "id": 0,
-                                "flags": 16842752,
-                                "transformFlags": 0,
-                                "escapedText": "returns"
-                            },
-                            "comment": ""
-                        }
-                    ]
-                },
-                {
-                    "name": "#hashPassphrase",
-                    "args": [
-                        {
-                            "name": "passPhrase",
-                            "type": "string",
-                            "deprecated": false,
-                            "deprecationMessage": ""
-                        }
-                    ],
-                    "optional": false,
-                    "returnType": "string",
-                    "typeParameters": [],
-                    "line": 127,
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "rawdescription": "\n\n\n",
-                    "description": "",
-                    "modifierKind": [
-                        123
-                    ],
-                    "jsdoctags": [
-                        {
-                            "name": {
-                                "pos": 2267,
-                                "end": 2277,
-                                "kind": 80,
-                                "id": 0,
-                                "flags": 16842752,
-                                "transformFlags": 0,
-                                "escapedText": "passPhrase"
-                            },
-                            "type": "string",
-                            "deprecated": false,
-                            "deprecationMessage": "",
-                            "tagName": {
-                                "pos": 2261,
-                                "end": 2266,
-                                "kind": 80,
-                                "id": 0,
-                                "flags": 16842752,
-                                "transformFlags": 0,
-                                "escapedText": "param"
-                            },
-                            "comment": ""
-                        },
-                        {
-                            "tagName": {
-                                "pos": 2284,
-                                "end": 2291,
-                                "kind": 80,
-                                "id": 0,
-                                "flags": 16842752,
-                                "transformFlags": 0,
-                                "escapedText": "returns"
-                            },
-                            "comment": ""
-                        }
-                    ]
-                },
-                {
-                    "name": "get",
-                    "args": [
-                        {
-                            "name": "key",
-                            "type": "Key",
-                            "deprecated": false,
-                            "deprecationMessage": ""
-                        },
-                        {
-                            "name": "passPhrase",
-                            "type": "string",
-                            "deprecated": false,
-                            "deprecationMessage": "",
-                            "optional": true
-                        }
-                    ],
-                    "optional": false,
-                    "returnType": "any",
-                    "typeParameters": [
-                        "Key"
-                    ],
-                    "line": 44,
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "rawdescription": "\n\n\n",
-                    "description": "",
-                    "modifierKind": [
-                        125
-                    ],
-                    "jsdoctags": [
-                        {
-                            "name": {
-                                "pos": 605,
-                                "end": 608,
-                                "kind": 80,
-                                "id": 0,
-                                "flags": 16842752,
-                                "transformFlags": 0,
-                                "escapedText": "key"
-                            },
-                            "type": "Key",
-                            "deprecated": false,
-                            "deprecationMessage": "",
-                            "tagName": {
-                                "pos": 599,
-                                "end": 604,
-                                "kind": 80,
-                                "id": 0,
-                                "flags": 16842752,
-                                "transformFlags": 0,
-                                "escapedText": "param"
-                            },
-                            "comment": ""
-                        },
-                        {
-                            "name": {
-                                "pos": 621,
-                                "end": 631,
-                                "kind": 80,
-                                "id": 0,
-                                "flags": 16842752,
-                                "transformFlags": 0,
-                                "escapedText": "passPhrase"
-                            },
-                            "type": "string",
-                            "deprecated": false,
-                            "deprecationMessage": "",
-                            "optional": true,
-                            "tagName": {
-                                "pos": 615,
-                                "end": 620,
-                                "kind": 80,
-                                "id": 0,
-                                "flags": 16842752,
-                                "transformFlags": 0,
-                                "escapedText": "param"
-                            },
-                            "comment": ""
-                        },
-                        {
-                            "tagName": {
-                                "pos": 638,
-                                "end": 645,
-                                "kind": 80,
-                                "id": 0,
-                                "flags": 16842752,
-                                "transformFlags": 0,
-                                "escapedText": "returns"
-                            },
-                            "comment": ""
-                        }
-                    ]
-                },
-                {
-                    "name": "set",
-                    "args": [
-                        {
-                            "name": "key",
-                            "type": "Key",
-                            "deprecated": false,
-                            "deprecationMessage": ""
-                        },
-                        {
-                            "name": "value",
-                            "type": "any",
-                            "deprecated": false,
-                            "deprecationMessage": ""
-                        },
-                        {
-                            "name": "passPhrase",
-                            "type": "string",
-                            "deprecated": false,
-                            "deprecationMessage": "",
-                            "optional": true
-                        }
-                    ],
-                    "optional": false,
-                    "returnType": "unknown",
-                    "typeParameters": [
-                        "Key"
-                    ],
-                    "line": 59,
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "rawdescription": "\n\n\n",
-                    "description": "",
-                    "modifierKind": [
-                        125
-                    ],
-                    "jsdoctags": [
-                        {
-                            "name": {
-                                "pos": 867,
-                                "end": 870,
-                                "kind": 80,
-                                "id": 0,
-                                "flags": 16842752,
-                                "transformFlags": 0,
-                                "escapedText": "key"
-                            },
-                            "type": "Key",
-                            "deprecated": false,
-                            "deprecationMessage": "",
-                            "tagName": {
-                                "pos": 861,
-                                "end": 866,
-                                "kind": 80,
-                                "id": 0,
-                                "flags": 16842752,
-                                "transformFlags": 0,
-                                "escapedText": "param"
-                            },
-                            "comment": ""
-                        },
-                        {
-                            "name": {
-                                "pos": 883,
-                                "end": 888,
-                                "kind": 80,
-                                "id": 0,
-                                "flags": 16842752,
-                                "transformFlags": 0,
-                                "escapedText": "value"
-                            },
-                            "type": "any",
-                            "deprecated": false,
-                            "deprecationMessage": "",
-                            "tagName": {
-                                "pos": 877,
-                                "end": 882,
-                                "kind": 80,
-                                "id": 0,
-                                "flags": 16842752,
-                                "transformFlags": 0,
-                                "escapedText": "param"
-                            },
-                            "comment": ""
-                        },
-                        {
-                            "name": {
-                                "pos": 901,
-                                "end": 911,
-                                "kind": 80,
-                                "id": 0,
-                                "flags": 16842752,
-                                "transformFlags": 0,
-                                "escapedText": "passPhrase"
-                            },
-                            "type": "string",
-                            "deprecated": false,
-                            "deprecationMessage": "",
-                            "optional": true,
-                            "tagName": {
-                                "pos": 895,
-                                "end": 900,
-                                "kind": 80,
-                                "id": 0,
-                                "flags": 16842752,
-                                "transformFlags": 0,
-                                "escapedText": "param"
-                            },
-                            "comment": ""
-                        },
-                        {
-                            "tagName": {
-                                "pos": 918,
-                                "end": 925,
-                                "kind": 80,
-                                "id": 0,
-                                "flags": 16842752,
-                                "transformFlags": 0,
-                                "escapedText": "returns"
-                            },
-                            "comment": ""
-                        }
-                    ]
-                },
-                {
-                    "name": "setPassPhrase",
-                    "args": [
-                        {
-                            "name": "passPhrase",
-                            "type": "string",
-                            "deprecated": false,
-                            "deprecationMessage": ""
-                        }
-                    ],
-                    "optional": false,
-                    "returnType": "unknown",
-                    "typeParameters": [],
-                    "line": 77,
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "rawdescription": "\n\n\n",
-                    "description": "",
-                    "modifierKind": [
-                        125
-                    ],
-                    "jsdoctags": [
-                        {
-                            "name": {
-                                "pos": 1193,
-                                "end": 1203,
-                                "kind": 80,
-                                "id": 0,
-                                "flags": 16842752,
-                                "transformFlags": 0,
-                                "escapedText": "passPhrase"
-                            },
-                            "type": "string",
-                            "deprecated": false,
-                            "deprecationMessage": "",
-                            "tagName": {
-                                "pos": 1187,
-                                "end": 1192,
-                                "kind": 80,
-                                "id": 0,
-                                "flags": 16842752,
-                                "transformFlags": 0,
-                                "escapedText": "param"
-                            },
-                            "comment": ""
-                        },
-                        {
-                            "tagName": {
-                                "pos": 1210,
-                                "end": 1217,
-                                "kind": 80,
-                                "id": 0,
-                                "flags": 16842752,
-                                "transformFlags": 0,
-                                "escapedText": "returns"
-                            },
-                            "comment": ""
-                        }
-                    ]
-                }
-            ],
-            "deprecated": false,
-            "deprecationMessage": "",
-            "description": "",
-            "rawdescription": "\n\n\n",
-            "sourceCode": "import { Injectable } from '@angular/core';\nimport * as CryptoJS from 'crypto-js';\n/**\n *\n */\n@Injectable()\nexport abstract class CryptoStorage<Name extends string, Keys extends string> {\n  /**\n   *\n   */\n  public get name(): Name {\n    return this.#name;\n  }\n\n  /**\n   *\n   */\n  #name: Name;\n\n  /**\n   *\n   */\n  #hash?: string;\n\n  /**\n   *\n   * @param name\n   * @param passPhrase\n   * @param keys\n   * @wieldspace\n   */\n  constructor(name: Name, passPhrase?: string, ...keys: Keys[]) {\n    this.#name = name;\n    passPhrase && (this.#hash = this.#hashPassphrase(passPhrase));\n  }\n\n  /**\n   *\n   * @param key\n   * @param passPhrase\n   * @returns\n   * @wieldspace\n   */\n  public get<Key extends Keys>(key: Key, passPhrase?: string): any {\n    return this.#decrypt(\n      localStorage.getItem(this.#getKeyName(key)),\n      passPhrase\n    );\n  }\n\n  /**\n   *\n   * @param key\n   * @param value\n   * @param passPhrase\n   * @returns\n   * @wieldspace\n   */\n  public set<Key extends Keys>(\n    key: Key,\n    value: any,\n    passPhrase?: string\n  ): this {\n    localStorage.setItem(\n      this.#getKeyName(key),\n      this.#encrypt(value, passPhrase)\n    );\n    return this;\n  }\n\n  /**\n   *\n   * @param passPhrase\n   * @returns\n   * @wieldspace\n   */\n  public setPassPhrase(passPhrase: string): this {\n    passPhrase && (this.#hash = this.#hashPassphrase(passPhrase));\n    return this;\n  }\n\n  //#region private instance methods.\n  /**\n   *\n   * @param passPhrase\n   * @returns\n   * @wieldspace\n   */\n  #checkPassphrase(passPhrase: string): boolean {\n    return CryptoJS.SHA3(passPhrase).toString() === this.#hash;\n  }\n\n  /**\n   *\n   * @param value\n   * @param passPhrase\n   * @returns\n   * @wieldspace\n   */\n  #decrypt(value: any, passPhrase?: string): string {\n    return CryptoJS.AES.decrypt(\n      value,\n      passPhrase ? this.#hashPassphrase(passPhrase) : this.#hash || ''\n    ).toString(CryptoJS.enc.Utf8);\n  }\n\n  /**\n   *\n   * @param value\n   * @param passPhrase\n   * @returns\n   * @wieldspace\n   */\n  #encrypt(value: any, passPhrase?: string): string {\n    return CryptoJS.AES.encrypt(\n      typeof value === 'object' ? JSON.stringify(value) : value,\n      passPhrase ? this.#hashPassphrase(passPhrase) : this.#hash || ''\n    ).toString();\n  }\n\n  /**\n   *\n   * @param passPhrase\n   * @returns\n   * @wieldspace\n   */\n  #hashPassphrase(passPhrase: string): string {\n    return CryptoJS.SHA3(passPhrase).toString();\n  }\n\n  /**\n   *\n   * @param key\n   * @returns\n   * @wieldspace\n   */\n  #getKeyName<Key extends Keys>(key: Key): string {\n    return `${this.#name}${key[0].toUpperCase() + key.slice(1)}`;\n  }\n  //#endregion private instance methods.\n}\n",
-            "constructorObj": {
-                "name": "constructor",
-                "description": "",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "args": [
-                    {
-                        "name": "name",
-                        "type": "Name",
-                        "deprecated": false,
-                        "deprecationMessage": ""
-                    },
-                    {
-                        "name": "passPhrase",
-                        "type": "string",
-                        "deprecated": false,
-                        "deprecationMessage": "",
-                        "optional": true
-                    },
-                    {
-                        "name": "keys",
-                        "type": "Keys[]",
-                        "deprecated": false,
-                        "deprecationMessage": "",
-                        "dotDotDotToken": true
-                    }
-                ],
-                "line": 23,
-                "rawdescription": "\n\n\n",
-                "jsdoctags": [
-                    {
-                        "name": {
-                            "pos": 353,
-                            "end": 357,
-                            "kind": 80,
-                            "id": 0,
-                            "flags": 16842752,
-                            "transformFlags": 0,
-                            "escapedText": "name"
-                        },
-                        "type": "Name",
-                        "deprecated": false,
-                        "deprecationMessage": "",
-                        "tagName": {
-                            "pos": 347,
-                            "end": 352,
-                            "kind": 80,
-                            "id": 0,
-                            "flags": 16842752,
-                            "transformFlags": 0,
-                            "escapedText": "param"
-                        },
-                        "comment": ""
-                    },
-                    {
-                        "name": {
-                            "pos": 370,
-                            "end": 380,
-                            "kind": 80,
-                            "id": 0,
-                            "flags": 16842752,
-                            "transformFlags": 0,
-                            "escapedText": "passPhrase"
-                        },
-                        "type": "string",
-                        "deprecated": false,
-                        "deprecationMessage": "",
-                        "optional": true,
-                        "tagName": {
-                            "pos": 364,
-                            "end": 369,
-                            "kind": 80,
-                            "id": 0,
-                            "flags": 16842752,
-                            "transformFlags": 0,
-                            "escapedText": "param"
-                        },
-                        "comment": ""
-                    },
-                    {
-                        "name": {
-                            "pos": 393,
-                            "end": 397,
-                            "kind": 80,
-                            "id": 0,
-                            "flags": 16842752,
-                            "transformFlags": 0,
-                            "escapedText": "keys"
-                        },
-                        "type": "Keys[]",
-                        "deprecated": false,
-                        "deprecationMessage": "",
-                        "dotDotDotToken": true,
-                        "tagName": {
-                            "pos": 387,
-                            "end": 392,
-                            "kind": 80,
-                            "id": 0,
-                            "flags": 16842752,
-                            "transformFlags": 0,
-                            "escapedText": "param"
-                        },
-                        "comment": ""
-                    }
-                ]
-            },
-            "accessors": {
-                "name": {
-                    "name": "name",
-                    "getSignature": {
-                        "name": "name",
-                        "type": "unknown",
-                        "returnType": "Name",
-                        "line": 11,
-                        "rawdescription": "\n\n\n",
-                        "description": ""
-                    }
-                }
-            },
-            "extends": [],
-            "type": "injectable"
-        },
-        {
-            "name": "ExampleService",
-            "id": "injectable-ExampleService-e0b0d4a6d66e38be8cf19999a805f0103f43f82407dea47f9c0129061dbed706b7b736b0b9ba87077790a69b11e229bb48966c7f05bdbc217859e87a9dc96390",
+            "name": "GraphqlService",
+            "id": "injectable-GraphqlService-0277432f64e022d6febdb524fd23981422c95a4724ae7f0274beb8fceb821504f820be01947d5967aa86712dc442500d79f9647513bce409b5276526cc1297b9",
             "file": "src/app/apollo-client/apollo.service.ts",
             "properties": [],
             "methods": [
                 {
-                    "name": "getUsers",
+                    "name": "queryUsers",
                     "args": [],
                     "optional": false,
                     "returnType": "any",
@@ -856,7 +49,7 @@
             "deprecationMessage": "",
             "description": "",
             "rawdescription": "\n",
-            "sourceCode": "import { Injectable } from '@angular/core';\nimport { Apollo } from 'apollo-angular';\nimport gql from 'graphql-tag';\n\n@Injectable({ providedIn: 'root' })\nexport class ExampleService {\n  constructor(private apollo: Apollo) {}\n\n  getUsers() {\n    console.info('getUsers');\n\n    let a = this.apollo.query({\n      query: gql`\n        query {\n          users {\n            email\n          }\n        }\n      `,\n    });\n    a.subscribe((result) => {\n      console.log(result);\n    });\n    return a;\n  }\n}\n",
+            "sourceCode": "import { Injectable } from '@angular/core';\nimport { Apollo } from 'apollo-angular';\nimport gql from 'graphql-tag';\n\n@Injectable({ providedIn: 'root' })\nexport class GraphqlService {\n  constructor(private apollo: Apollo) {}\n\n  queryUsers() {\n    console.info('queryUsers');\n\n    let result = this.apollo.query({\n      query: gql`\n        query {\n          users {\n            email\n          }            \n        }\n      `,\n    });\n    result.subscribe((result) => {\n      console.log(result);\n    });\n    return result;\n  }\n}\n",
             "constructorObj": {
                 "name": "constructor",
                 "description": "",
@@ -866,6 +59,8 @@
                     {
                         "name": "apollo",
                         "type": "Apollo",
+                        "optional": false,
+                        "dotDotDotToken": false,
                         "deprecated": false,
                         "deprecationMessage": ""
                     }
@@ -875,6 +70,8 @@
                     {
                         "name": "apollo",
                         "type": "Apollo",
+                        "optional": false,
+                        "dotDotDotToken": false,
                         "deprecated": false,
                         "deprecationMessage": "",
                         "tagName": {
@@ -889,86 +86,12 @@
     ],
     "guards": [],
     "interceptors": [],
-    "classes": [
-        {
-            "name": "CryptessionStorage",
-            "id": "class-CryptessionStorage-4eed1bcb633980f0df52ec24e84f2ada57963736382255467f582826efc03a333686cbd44dfa5ebeb8577b555f0c3f60707c5632a76d185f6afdde5b7a870831",
-            "file": "src/app/crypto/cryptesession-storage.class.ts",
-            "deprecated": false,
-            "deprecationMessage": "",
-            "type": "class",
-            "sourceCode": "export class CryptessionStorage {}\n",
-            "inputsClass": [],
-            "outputsClass": [],
-            "properties": [],
-            "methods": [],
-            "indexSignatures": [],
-            "extends": [],
-            "hostBindings": [],
-            "hostListeners": []
-        },
-        {
-            "name": "Deferred",
-            "id": "class-Deferred-304c0c09c397e42d707e73bb4b1bb3b7313ccbf7234888b446713b72d2b42061d78a7cc6324838cf141c2509ba80cc400e0a933588e816b06244acfd935e9798",
-            "file": "src/app/core/deferred.class.ts",
-            "deprecated": false,
-            "deprecationMessage": "",
-            "type": "class",
-            "sourceCode": "export class Deferred<T> {\n  promise: Promise<T>;\n  resolve!: (value: T | PromiseLike<T>) => void;\n  reject!: (reason?: any) => void;\n\n  constructor() {\n    this.promise = new Promise<T>((res, rej) => {\n      this.resolve = res;\n      this.reject = rej;\n    });\n  }\n}\n",
-            "constructorObj": {
-                "name": "constructor",
-                "description": "",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "args": [],
-                "line": 4
-            },
-            "inputsClass": [],
-            "outputsClass": [],
-            "properties": [
-                {
-                    "name": "promise",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Promise<T>",
-                    "indexKey": "",
-                    "optional": false,
-                    "description": "",
-                    "line": 2
-                },
-                {
-                    "name": "reject",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "function",
-                    "indexKey": "",
-                    "optional": false,
-                    "description": "",
-                    "line": 4
-                },
-                {
-                    "name": "resolve",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "function",
-                    "indexKey": "",
-                    "optional": false,
-                    "description": "",
-                    "line": 3
-                }
-            ],
-            "methods": [],
-            "indexSignatures": [],
-            "extends": [],
-            "hostBindings": [],
-            "hostListeners": []
-        }
-    ],
+    "classes": [],
     "directives": [],
     "components": [
         {
             "name": "App",
-            "id": "component-App-c3939ba0cb0dbdf50dfdb317762bfe3d9c7b7029ab15602aa6d7fff48e8485aec413646dd4aea10de019467459ed870493e4547222fde5b7533c022e13f029ea",
+            "id": "component-App-79f062c8e236c91208f855516697c79d6159ebb338840838d8e08f0bfeabcf70509aa8859d4bd922e32dc3ffc1fc2e2917169880a7a1ebcce891cf91dadd6e33",
             "file": "src/app/app.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -1001,7 +124,7 @@
                     "indexKey": "",
                     "optional": false,
                     "description": "",
-                    "line": 247
+                    "line": 208
                 },
                 {
                     "name": "drawerVisible",
@@ -1012,7 +135,7 @@
                     "indexKey": "",
                     "optional": false,
                     "description": "",
-                    "line": 242
+                    "line": 203
                 },
                 {
                     "name": "indexedDBService",
@@ -1023,18 +146,18 @@
                     "indexKey": "",
                     "optional": false,
                     "description": "",
-                    "line": 243
+                    "line": 204
                 },
                 {
                     "name": "menuItems",
-                    "defaultValue": "signal<MenuItem[]>([\n    {\n      label: '',\n      items: [\n        { label: 'Dashboard', icon: 'pi pi-home', routerLink: '/' },\n        { label: 'Search', icon: 'pi pi-search', routerLink: '/search', command: () => { console.log('Search by Name clicked'); } },\n        {\n          label: 'Calendar',\n          tooltip: 'Calendar',\n          icon: 'pi pi-calendar',\n          routerLink: '/calendar'\n        },\n\n        { separator: true },\n        {\n            label: 'Inbox',\n            routerLink: '/inbox',\n            tooltip: 'Inbox',\n            icon: 'pi pi-inbox'\n        },\n        { separator: true },\n        {\n          label: 'Calculations',\n          icon: 'pi pi-calculator',\n          routerLink: '/calculations',\n          tooltip: 'Calculations',\n        },\n\n        {\n          label: 'Projects',\n          icon: 'pi pi-briefcase',\n          routerLink: '/projects',\n          tooltip: 'Projects',\n        },\n\n        { separator: true },\n\n        {\n          label: 'Schedules',\n          icon: 'pi pi-calendar',\n          routerLink: '/schedules',\n          tooltip: 'Schedules',\n        },\n\n        { separator: true },\n\n        {\n          label: 'Transactions',\n          icon: 'pi pi-list',\n          routerLink: '/transactions',\n          tooltip: 'Transactions',\n        },\n\n        {\n          label: 'Incomes',\n          icon: 'pi pi-chart-line', // or 'pi pi-dollar', or 'pi pi-chart-line'\n          routerLink: '/incomes',\n          tooltip: 'Incomes'\n        },\n\n        {\n            label: 'Expenses',\n            tooltip: 'Expenses',\n            icon: 'pi pi-wallet',\n            routerLink: '/expenses',\n        },\n\n        {\n            label: 'Costs',\n            tooltip: 'Costs',\n            icon: 'pi pi-money-bill',\n            routerLink: '/costs',\n        },\n\n        { separator: true },\n\n        {\n            label: 'Companies',\n            icon: 'pi pi-building',\n            routerLink: '/companies',\n            tooltip: 'Companies',\n            items: [\n                { label: 'List', icon: 'pi pi-list', routerLink: '/companies/list' },\n                { label: 'Add New', icon: 'pi pi-plus', routerLink: '/companies/new' },\n            ]\n        },\n        {\n            label: 'Persons',\n            icon: 'pi pi-users',\n            routerLink: '/persons',\n            tooltip: 'Persons',\n            items: [\n                { label: 'List', icon: 'pi pi-list', routerLink: '/persons/list' },\n                { label: 'Add New', icon: 'pi pi-plus', routerLink: '/persons/new' },\n            ]\n        },\n        { separator: true },\n\n        { label: 'Analytics', icon: 'pi pi-chart-bar', routerLink: '/analytics' },\n        {\n            label: 'Statistics',\n            icon: 'pi pi-chart-bar',\n            routerLink: '/statistics',\n            tooltip: 'Statistics'\n        },\n        {\n            label: 'Help',\n            tooltip: 'Help',\n            icon: 'pi pi-question'\n        },\n        {\n            label: 'Settings',\n            icon: 'pi pi-cog',\n            routerLink: '/settings',\n            tooltip: 'Settings'\n        },\n        // { label: 'CRM', icon: 'pi pi-users', routerLink: '/crm' },\n      ]\n    },\n\n    // {\n    //   label: 'Search',\n    //   items: [\n    //     { label: 'By Name', icon: 'pi pi-search', routerLink: '/search/name' },\n    //     { label: 'By Date', icon: 'pi pi-calendar', routerLink: '/search/date' },\n    //     { label: 'Advanced', icon: 'pi pi-filter', routerLink: '/search/advanced' },\n    //   ]\n    // },\n\n    // {\n    //   label: 'Transactions',\n    //   icon: 'pi pi-list', // or 'pi pi-dollar', or 'pi pi-chart-line'\n    //   routerLink: '/transactions',\n    //   tooltip: 'Transactions',\n    //   items: [\n    //     { label: 'Incomes', icon: 'pi pi-chart-line', routerLink: '/incomes' },\n    //     { label: 'Expenses', icon: 'pi pi-wallet', routerLink: '/expenses' },\n    //     { label: 'Costs', icon: 'pi pi-money-bill', routerLink: '/costs' },\n    //   ]\n    // },\n\n  ])",
+                    "defaultValue": "signal<MenuItem[]>([\n    {\n      label: '',\n      items: [\n        { label: 'Dashboard', icon: 'pi pi-home', routerLink: '/' },\n        { label: 'Search', icon: 'pi pi-search', routerLink: '/search', command: () => { console.log('Search by Name clicked'); } },\n        {\n          label: 'Calendar',\n          tooltip: 'Calendar',\n          icon: 'pi pi-calendar',\n          routerLink: '/calendar'\n        },\n\n        { separator: true },\n        {\n            label: 'Inbox',\n            routerLink: '/inbox',\n            tooltip: 'Inbox',\n            icon: 'pi pi-inbox'\n        },\n        { separator: true },\n        {\n          label: 'Calculations',\n          icon: 'pi pi-calculator',\n          routerLink: '/calculations',\n          tooltip: 'Calculations',\n        },\n\n        {\n          label: 'Projects',\n          icon: 'pi pi-briefcase',\n          routerLink: '/projects',\n          tooltip: 'Projects',\n        },\n\n        { separator: true },\n\n        {\n          label: 'Schedules',\n          icon: 'pi pi-calendar',\n          routerLink: '/schedules',\n          tooltip: 'Schedules',\n        },\n\n        { separator: true },\n\n        {\n          label: 'Transactions',\n          icon: 'pi pi-list',\n          routerLink: '/transactions',\n          tooltip: 'Transactions',\n        },\n\n        {\n          label: 'Incomes',\n          icon: 'pi pi-chart-line', // or 'pi pi-dollar', or 'pi pi-chart-line'\n          routerLink: '/incomes',\n          tooltip: 'Incomes'\n        },\n\n        {\n            label: 'Expenses',\n            tooltip: 'Expenses',\n            icon: 'pi pi-wallet',\n            routerLink: '/expenses',\n        },\n\n        {\n            label: 'Costs',\n            tooltip: 'Costs',\n            icon: 'pi pi-money-bill',\n            routerLink: '/costs',\n        },\n\n        { separator: true },\n\n        {\n            label: 'Companies',\n            icon: 'pi pi-building',\n            routerLink: '/companies',\n            tooltip: 'Companies',\n            items: [\n                { label: 'List', icon: 'pi pi-list', routerLink: '/companies/list' },\n                { label: 'Add New', icon: 'pi pi-plus', routerLink: '/companies/new' },\n            ]\n        },\n        {\n            label: 'Persons',\n            icon: 'pi pi-users',\n            routerLink: '/persons',\n            tooltip: 'Persons',\n            items: [\n                { label: 'List', icon: 'pi pi-list', routerLink: '/persons/list' },\n                { label: 'Add New', icon: 'pi pi-plus', routerLink: '/persons/new' },\n            ]\n        },\n        { separator: true },\n\n        { label: 'Analytics', icon: 'pi pi-chart-bar', routerLink: '/analytics' },\n        {\n            label: 'Statistics',\n            icon: 'pi pi-chart-bar',\n            routerLink: '/statistics',\n            tooltip: 'Statistics'\n        },\n        {\n            label: 'Help',\n            tooltip: 'Help',\n            icon: 'pi pi-question'\n        },\n        {\n            label: 'Settings',\n            icon: 'pi pi-cog',\n            routerLink: '/settings',\n            tooltip: 'Settings'\n        },\n        // { label: 'CRM', icon: 'pi pi-users', routerLink: '/crm' },\n      ]\n    },\n  ])",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "unknown",
                     "indexKey": "",
                     "optional": false,
                     "description": "",
-                    "line": 99
+                    "line": 82
                 },
                 {
                     "name": "module",
@@ -1045,7 +168,7 @@
                     "indexKey": "",
                     "optional": false,
                     "description": "",
-                    "line": 98
+                    "line": 81
                 },
                 {
                     "name": "router",
@@ -1056,7 +179,7 @@
                     "indexKey": "",
                     "optional": false,
                     "description": "",
-                    "line": 249,
+                    "line": 210,
                     "modifierKind": [
                         123
                     ]
@@ -1070,7 +193,7 @@
                     "indexKey": "",
                     "optional": false,
                     "description": "",
-                    "line": 97
+                    "line": 80
                 },
                 {
                     "name": "users",
@@ -1081,7 +204,7 @@
                     "indexKey": "",
                     "optional": false,
                     "description": "",
-                    "line": 244
+                    "line": 205
                 }
             ],
             "methodsClass": [
@@ -1091,7 +214,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 257,
+                    "line": 218,
                     "deprecated": false,
                     "deprecationMessage": ""
                 },
@@ -1101,6 +224,8 @@
                         {
                             "name": "collapsed",
                             "type": "any",
+                            "optional": false,
+                            "dotDotDotToken": false,
                             "deprecated": false,
                             "deprecationMessage": ""
                         }
@@ -1108,13 +233,15 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 253,
+                    "line": 214,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
                         {
                             "name": "collapsed",
                             "type": "any",
+                            "optional": false,
+                            "dotDotDotToken": false,
                             "deprecated": false,
                             "deprecationMessage": "",
                             "tagName": {
@@ -1146,34 +273,13 @@
                     "type": "module"
                 },
                 {
-                    "name": "Calculation"
-                },
-                {
-                    "name": "Calculations"
-                },
-                {
-                    "name": "Chat"
-                },
-                {
                     "name": "Layout"
-                },
-                {
-                    "name": "Menu"
-                },
-                {
-                    "name": "MenuBar"
-                },
-                {
-                    "name": "Sidebar"
-                },
-                {
-                    "name": "Toolbar"
                 }
             ],
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component, computed, inject, signal } from '@angular/core';\nimport { RouterModule, RouterOutlet, Router, NavigationEnd } from '@angular/router';\n\n// rxjs\nimport { filter } from 'rxjs';\n\n// PrimeNG\nimport { MenuItem } from 'primeng/api';\nimport { ButtonModule } from 'primeng/button';\n\n// Socket.io\nimport './socket.io';\n\n// IndexedDB\nimport { IndexedDBService } from '@angular-package/indexeddb';\n\n// Apollo\nimport { ExampleService } from './apollo-client/apollo.service';\n\n// @angular.x.\nimport { Chat } from '@angular.x/chat';\nimport { Layout } from '@angular.x/layout';\nimport { Menu } from '@angular.x/menu';\nimport { MenuBar } from '@angular.x/menu-bar';\nimport { Sidebar } from '@angular.x/sidebar';\nimport { Toolbar } from '@angular.x/toolbar';\n\n// @angular-package\nimport { LAYOUT_CONFIGURATION, CollapsedSide } from '@angular-package/layout';\nimport { SplitterModule } from 'primeng/splitter';\nimport { Calculation } from '@angular.x/calculation';\nimport { Calculations } from '@angular.x/calculations';\n\n@Component({\n  selector: 'app-root',\n  imports: [\n    // Angular.\n    RouterOutlet,\n    RouterModule,\n  \n    // PrimeNG.\n    ButtonModule,\n    SplitterModule,\n\n    // @angular.x\n    Calculation,\n    Calculations,\n    Chat,\n    Layout,\n    Menu,\n    MenuBar,\n    Sidebar,\n    Toolbar,\n\n  ],\n  providers: [\n    {\n      provide: LAYOUT_CONFIGURATION, useValue: {\n      slot: {\n        layout: 'gap-1',\n        top: 'top',\n        left: 'left',\n        bottom: 'bottom',\n        right: 'right',\n        center: 'flex center gap-3', //\n\n        // top: 'grid-row-1 col-2',\n        // left: 'row-span-3 col-1',\n        // center: 'grid-row-2 col-2',\n        // right: 'row-span-3 col-3',\n        // bottom: 'grid-row-3 col-2',\n\n      },\n      // variant: {\n      //   // vertical: {\n      //   //   top: 'grid-row-1 col-span-full',\n      //   //   left: 'grid-row-2 col-1',\n      //   //   center: 'grid-row-2 col-2',\n      //   //   right: 'grid-row-2 col-3',\n      //   //   bottom: 'grid-row-3 col-span-full',\n      //   // },\n      //   horizontal: {\n      //     top: 'grid-row-1 col-2',\n      //     left: 'row-span-3 col-1',\n      //     center: 'grid-row-2 col-2',\n      //     right: 'row-span-3 col-3',\n      //     bottom: 'grid-row-3 col-2',\n      //   },\n      // }\n    }},\n  ],\n  templateUrl: './app.html',\n  styleUrls: ['./app.scss'],\n\n})\nexport class App {\n  title = 'angular.x';\n  module = '';\n  menuItems = signal<MenuItem[]>([\n    {\n      label: '',\n      items: [\n        { label: 'Dashboard', icon: 'pi pi-home', routerLink: '/' },\n        { label: 'Search', icon: 'pi pi-search', routerLink: '/search', command: () => { console.log('Search by Name clicked'); } },\n        {\n          label: 'Calendar',\n          tooltip: 'Calendar',\n          icon: 'pi pi-calendar',\n          routerLink: '/calendar'\n        },\n\n        { separator: true },\n        {\n            label: 'Inbox',\n            routerLink: '/inbox',\n            tooltip: 'Inbox',\n            icon: 'pi pi-inbox'\n        },\n        { separator: true },\n        {\n          label: 'Calculations',\n          icon: 'pi pi-calculator',\n          routerLink: '/calculations',\n          tooltip: 'Calculations',\n        },\n\n        {\n          label: 'Projects',\n          icon: 'pi pi-briefcase',\n          routerLink: '/projects',\n          tooltip: 'Projects',\n        },\n\n        { separator: true },\n\n        {\n          label: 'Schedules',\n          icon: 'pi pi-calendar',\n          routerLink: '/schedules',\n          tooltip: 'Schedules',\n        },\n\n        { separator: true },\n\n        {\n          label: 'Transactions',\n          icon: 'pi pi-list',\n          routerLink: '/transactions',\n          tooltip: 'Transactions',\n        },\n\n        {\n          label: 'Incomes',\n          icon: 'pi pi-chart-line', // or 'pi pi-dollar', or 'pi pi-chart-line'\n          routerLink: '/incomes',\n          tooltip: 'Incomes'\n        },\n\n        {\n            label: 'Expenses',\n            tooltip: 'Expenses',\n            icon: 'pi pi-wallet',\n            routerLink: '/expenses',\n        },\n\n        {\n            label: 'Costs',\n            tooltip: 'Costs',\n            icon: 'pi pi-money-bill',\n            routerLink: '/costs',\n        },\n\n        { separator: true },\n\n        {\n            label: 'Companies',\n            icon: 'pi pi-building',\n            routerLink: '/companies',\n            tooltip: 'Companies',\n            items: [\n                { label: 'List', icon: 'pi pi-list', routerLink: '/companies/list' },\n                { label: 'Add New', icon: 'pi pi-plus', routerLink: '/companies/new' },\n            ]\n        },\n        {\n            label: 'Persons',\n            icon: 'pi pi-users',\n            routerLink: '/persons',\n            tooltip: 'Persons',\n            items: [\n                { label: 'List', icon: 'pi pi-list', routerLink: '/persons/list' },\n                { label: 'Add New', icon: 'pi pi-plus', routerLink: '/persons/new' },\n            ]\n        },\n        { separator: true },\n\n        { label: 'Analytics', icon: 'pi pi-chart-bar', routerLink: '/analytics' },\n        {\n            label: 'Statistics',\n            icon: 'pi pi-chart-bar',\n            routerLink: '/statistics',\n            tooltip: 'Statistics'\n        },\n        {\n            label: 'Help',\n            tooltip: 'Help',\n            icon: 'pi pi-question'\n        },\n        {\n            label: 'Settings',\n            icon: 'pi pi-cog',\n            routerLink: '/settings',\n            tooltip: 'Settings'\n        },\n        // { label: 'CRM', icon: 'pi pi-users', routerLink: '/crm' },\n      ]\n    },\n\n    // {\n    //   label: 'Search',\n    //   items: [\n    //     { label: 'By Name', icon: 'pi pi-search', routerLink: '/search/name' },\n    //     { label: 'By Date', icon: 'pi pi-calendar', routerLink: '/search/date' },\n    //     { label: 'Advanced', icon: 'pi pi-filter', routerLink: '/search/advanced' },\n    //   ]\n    // },\n\n    // {\n    //   label: 'Transactions',\n    //   icon: 'pi pi-list', // or 'pi pi-dollar', or 'pi pi-chart-line'\n    //   routerLink: '/transactions',\n    //   tooltip: 'Transactions',\n    //   items: [\n    //     { label: 'Incomes', icon: 'pi pi-chart-line', routerLink: '/incomes' },\n    //     { label: 'Expenses', icon: 'pi pi-wallet', routerLink: '/expenses' },\n    //     { label: 'Costs', icon: 'pi pi-money-bill', routerLink: '/costs' },\n    //   ]\n    // },\n\n  ]);\n\n  drawerVisible: boolean = true;\n  indexedDBService = inject(IndexedDBService);\n  users: any[] = [];\n\n  // Computed signal for the current label (reactive to route changes)\n  currentLabel = signal('');\n\n  private router = inject(Router);  // Inject Router\n\n  constructor(private exampleService: ExampleService) {}\n\n  onLeftCollapsed(collapsed: any) {\n    console.log('App onLeftCollapsed(): ', collapsed);\n  }\n\n  ngOnInit() {\n    this.indexedDBService.initialize();\n    this.exampleService.getUsers().subscribe((result: any) => this.users = result.data.users);\n\n    // Subscribe to router events (filter for NavigationEnd to avoid multiple triggers)\n    const subscription = this.router.events\n      .pipe(filter(event => event instanceof NavigationEnd))\n      .subscribe((event: NavigationEnd) => {\n        const currentUrl = event.urlAfterRedirects || event.url;  // Use the final URL\n        // const activeLabel = this.findLabelFromMenu(this.menuItems(), currentUrl);\n        // this.currentLabel.set(activeLabel || 'Unknown');  // Update the signal\n        console.log(currentUrl);\n        this.menuItems().forEach(mainItem => {\n          mainItem.items?.forEach(subItem => {\n            if (subItem.routerLink === currentUrl) {\n              this.currentLabel.set(subItem.label || 'Angular.x');\n            }\n          });\n        });\n        console.log('Router changed to:', currentUrl, 'Label updated to:', this.currentLabel());\n      });\n  }\n\n  // // Helper to recursively search menuItems (including sub-items)\n  // private findActiveItem(items: MenuItem[], url: string): MenuItem | undefined {\n  //   // for (const item of items) {\n  //   //   console.log('Checking Item:', item.label, 'RouterLink:', item.routerLink, 'URL:', url);\n  //   //   // if (item.routerLink && this.isRouteActive(item.routerLink, url)) {\n  //   //   //   return item;\n  //   //   // }\n  //   //   if (item.items) {\n  //   //     const subItem = this.findActiveItem(item.items, url);\n  //   //     if (subItem) return subItem;\n  //   //   } else {\n  //   //     console.log('Comparing:', item.routerLink, 'with', url);\n  //   //     // if (item.routerLink.contains(url) && this.isRouteActive(item.routerLink, url)) {\n  //   //     //   return item;\n  //   //     // }\n  //   //   }\n  //   // }\n  //   return undefined;\n  // }\n\n  // // Improved matching: Check if the route is active (ignores query params/fragments by default)\n  // private isRouteActive(routerLink: string, currentUrl: string): boolean {\n  //   // Use Angular's isActive for better matching (optional: adjust options)\n  //   return this.router.isActive(routerLink, { paths: 'subset', queryParams: 'ignored', fragment: 'ignored', matrixParams: 'ignored' });\n  // }\n}\n",
+            "sourceCode": "import { Component, computed, inject, signal } from '@angular/core';\nimport { RouterModule, RouterOutlet, Router, NavigationEnd } from '@angular/router';\n\n// rxjs\nimport { filter } from 'rxjs';\n\n// PrimeNG\nimport { MenuItem } from 'primeng/api';\nimport { ButtonModule } from 'primeng/button';\nimport { SplitterModule } from 'primeng/splitter';\n\n// Socket.io\nimport './socket.io';\n\n// indexedDB\nimport { indexeddb } from './app.indexeddb';\n\n// IndexedDB\nimport { IndexedDBService } from '@angular-package/indexeddb';\n\n// Apollo\nimport { GraphqlService } from './apollo-client/apollo.service';\n\n// @angular.x.\nimport { Calculation } from '@angular.x/calculation';\nimport { Calculations } from '@angular.x/calculations';\nimport { Chat } from '@angular.x/chat';\nimport { Layout } from '@angular.x/layout';\nimport { Menu } from '@angular.x/menu';\nimport { MenuBar } from '@angular.x/menu-bar';\nimport { Sidebar } from '@angular.x/sidebar';\nimport { Toolbar } from '@angular.x/toolbar';\n\n// @angular-package\nimport {\n  LAYOUT_CONFIGURATION,\n  CollapsedSide\n} from '@angular-package/layout';\n\n@Component({\n  selector: 'app-root',\n  imports: [\n    // Angular.\n    RouterOutlet,\n    RouterModule,\n  \n    // PrimeNG.\n    ButtonModule,\n    SplitterModule,\n\n    // @angular.x\n    // Calculation,\n    // Calculations,\n    // Chat,\n    Layout,\n    // Menu,\n    // MenuBar,\n    // Sidebar,\n    // Toolbar,\n\n  ],\n  providers: [\n    {\n      provide: LAYOUT_CONFIGURATION, useValue: {\n      slot: {\n        layout: 'gap-1',\n        top: 'top',\n        left: 'left',\n        bottom: 'bottom',\n        right: 'right',\n        center: 'flex center gap-3',\n      },\n    }},\n  ],\n  templateUrl: './app.html',\n  styleUrls: ['./app.scss'],\n\n})\nexport class App {\n  title = 'angular.x';\n  module = '';\n  menuItems = signal<MenuItem[]>([\n    {\n      label: '',\n      items: [\n        { label: 'Dashboard', icon: 'pi pi-home', routerLink: '/' },\n        { label: 'Search', icon: 'pi pi-search', routerLink: '/search', command: () => { console.log('Search by Name clicked'); } },\n        {\n          label: 'Calendar',\n          tooltip: 'Calendar',\n          icon: 'pi pi-calendar',\n          routerLink: '/calendar'\n        },\n\n        { separator: true },\n        {\n            label: 'Inbox',\n            routerLink: '/inbox',\n            tooltip: 'Inbox',\n            icon: 'pi pi-inbox'\n        },\n        { separator: true },\n        {\n          label: 'Calculations',\n          icon: 'pi pi-calculator',\n          routerLink: '/calculations',\n          tooltip: 'Calculations',\n        },\n\n        {\n          label: 'Projects',\n          icon: 'pi pi-briefcase',\n          routerLink: '/projects',\n          tooltip: 'Projects',\n        },\n\n        { separator: true },\n\n        {\n          label: 'Schedules',\n          icon: 'pi pi-calendar',\n          routerLink: '/schedules',\n          tooltip: 'Schedules',\n        },\n\n        { separator: true },\n\n        {\n          label: 'Transactions',\n          icon: 'pi pi-list',\n          routerLink: '/transactions',\n          tooltip: 'Transactions',\n        },\n\n        {\n          label: 'Incomes',\n          icon: 'pi pi-chart-line', // or 'pi pi-dollar', or 'pi pi-chart-line'\n          routerLink: '/incomes',\n          tooltip: 'Incomes'\n        },\n\n        {\n            label: 'Expenses',\n            tooltip: 'Expenses',\n            icon: 'pi pi-wallet',\n            routerLink: '/expenses',\n        },\n\n        {\n            label: 'Costs',\n            tooltip: 'Costs',\n            icon: 'pi pi-money-bill',\n            routerLink: '/costs',\n        },\n\n        { separator: true },\n\n        {\n            label: 'Companies',\n            icon: 'pi pi-building',\n            routerLink: '/companies',\n            tooltip: 'Companies',\n            items: [\n                { label: 'List', icon: 'pi pi-list', routerLink: '/companies/list' },\n                { label: 'Add New', icon: 'pi pi-plus', routerLink: '/companies/new' },\n            ]\n        },\n        {\n            label: 'Persons',\n            icon: 'pi pi-users',\n            routerLink: '/persons',\n            tooltip: 'Persons',\n            items: [\n                { label: 'List', icon: 'pi pi-list', routerLink: '/persons/list' },\n                { label: 'Add New', icon: 'pi pi-plus', routerLink: '/persons/new' },\n            ]\n        },\n        { separator: true },\n\n        { label: 'Analytics', icon: 'pi pi-chart-bar', routerLink: '/analytics' },\n        {\n            label: 'Statistics',\n            icon: 'pi pi-chart-bar',\n            routerLink: '/statistics',\n            tooltip: 'Statistics'\n        },\n        {\n            label: 'Help',\n            tooltip: 'Help',\n            icon: 'pi pi-question'\n        },\n        {\n            label: 'Settings',\n            icon: 'pi pi-cog',\n            routerLink: '/settings',\n            tooltip: 'Settings'\n        },\n        // { label: 'CRM', icon: 'pi pi-users', routerLink: '/crm' },\n      ]\n    },\n  ]);\n\n  drawerVisible: boolean = true;\n  indexedDBService = inject(IndexedDBService);\n  users: any[] = [];\n\n  // Computed signal for the current label (reactive to route changes)\n  currentLabel = signal('');\n\n  private router = inject(Router);  // Inject Router\n\n  constructor(private graphqlService: GraphqlService) {}\n\n  onLeftCollapsed(collapsed: any) {\n    console.log('App onLeftCollapsed(): ', collapsed);\n  }\n\n  ngOnInit() {\n    this.indexedDBService.browser(async () => {\n      console.log('IndexedDB is ready for browser operations.');\n    });\n    this.graphqlService.queryUsers().subscribe((result: any) => this.users = result.data.users);\n\n    // Subscribe to router events (filter for NavigationEnd to avoid multiple triggers)\n    const subscription = this.router.events\n      .pipe(filter(event => event instanceof NavigationEnd))\n      .subscribe((event: NavigationEnd) => {\n        const currentUrl = event.urlAfterRedirects || event.url;  // Use the final URL\n        this.menuItems().forEach(mainItem => {\n          mainItem.items?.forEach(subItem => {\n            if (subItem.routerLink === currentUrl) {\n              this.currentLabel.set(subItem.label || 'Angular.x');\n            }\n          });\n        });\n        console.log('Router changed to:', currentUrl, 'Label updated to:', this.currentLabel());\n      });\n  }\n\n}\n",
             "assetsDirs": [],
             "styleUrlsData": [
                 {
@@ -1189,17 +295,21 @@
                 "deprecationMessage": "",
                 "args": [
                     {
-                        "name": "exampleService",
-                        "type": "ExampleService",
+                        "name": "graphqlService",
+                        "type": "GraphqlService",
+                        "optional": false,
+                        "dotDotDotToken": false,
                         "deprecated": false,
                         "deprecationMessage": ""
                     }
                 ],
-                "line": 249,
+                "line": 210,
                 "jsdoctags": [
                     {
-                        "name": "exampleService",
-                        "type": "ExampleService",
+                        "name": "graphqlService",
+                        "type": "GraphqlService",
+                        "optional": false,
+                        "dotDotDotToken": false,
                         "deprecated": false,
                         "deprecationMessage": "",
                         "tagName": {
@@ -1209,7 +319,7 @@
                 ]
             },
             "extends": [],
-            "templateData": "<ax-layout\n  (onLeftCollapsed)=\"onLeftCollapsed($event)\"\n  [px]=\"'0'\" \n  [py]=\"'0'\"\n  [bg]=\"'surface-50'\"\n  [showRight]=\"true\"\n  [flexDirection]=\"'col'\"\n  [flexWrap]=\"'nowrap'\"\n  [menuItems]=\"menuItems()\"\n  [title]=\"currentLabel()\"\n>\n  <!-- <ax-menu-bar class=\"vertical\" slot=\"left\" [items]=\"menuItems\"></ax-menu-bar> -->\n  <!-- <ax-menu slot=\"left\" [items]=\"menuItems\"></ax-menu> -->\n  <!-- <ax-menu [items]=\"menuItems()\" slot=\"left\"></ax-menu> -->\n  <!-- <ax-toolbar slot=\"top\" [title]=\"'Expenses'\"></ax-toolbar> -->\n\n  <!-- Router Outlet -->\n  <ng-container slot=\"center\"><router-outlet></router-outlet></ng-container>\n\n  <div slot=\"right\" class=\"w-128 h-full p-4\">\n    <!-- <ax-calculation></ax-calculation> -->\n  </div>\n\n</ax-layout>\n"
+            "templateData": "<ax-layout\n  (onLeftCollapsed)=\"onLeftCollapsed($event)\"\n  [px]=\"'0'\" \n  [py]=\"'0'\"\n  [bg]=\"'surface-50'\"\n  [showRight]=\"true\"\n  [flexDirection]=\"'col'\"\n  [flexWrap]=\"'nowrap'\"\n  [menuItems]=\"menuItems()\"\n  [title]=\"currentLabel()\"\n>\n  <!-- Router Outlet -->\n  <ng-container slot=\"center\"><router-outlet></router-outlet></ng-container>\n\n  <div slot=\"right\" class=\"w-128 h-full p-4\"></div>\n\n</ax-layout>\n"
         },
         {
             "name": "ButtonComponent",
@@ -1346,82 +456,6 @@
             }
         },
         {
-            "name": "CostsComponent",
-            "id": "component-CostsComponent-3998cba0db5a45ba34d7846e3128cf807e0e2518722eb3fc476d6027b3c0f1158ba410f3901cb8eca79e885ebb972b963717053424bc68b2df8f12bd9406776a",
-            "file": "src/app/costs/costs.component.ts",
-            "encapsulation": [],
-            "entryComponents": [],
-            "inputs": [],
-            "outputs": [],
-            "providers": [],
-            "selector": "app-costs",
-            "styleUrls": [],
-            "styles": [],
-            "templateUrl": [
-                "./costs.component.html"
-            ],
-            "viewProviders": [],
-            "hostDirectives": [],
-            "inputsClass": [],
-            "outputsClass": [],
-            "propertiesClass": [],
-            "methodsClass": [],
-            "deprecated": false,
-            "deprecationMessage": "",
-            "hostBindings": [],
-            "hostListeners": [],
-            "standalone": false,
-            "imports": [],
-            "description": "",
-            "rawdescription": "\n",
-            "type": "component",
-            "sourceCode": "import { Component } from '@angular/core';\n\n@Component({\n  selector: 'app-costs',\n  imports: [],\n  templateUrl: './costs.component.html',\n  styleUrl: './costs.component.scss',\n})\nexport class CostsComponent {\n\n}\n",
-            "styleUrl": "./costs.component.scss",
-            "assetsDirs": [],
-            "styleUrlsData": "",
-            "stylesData": "",
-            "extends": [],
-            "templateData": "<p>costs works!</p>\n"
-        },
-        {
-            "name": "DashboardComponent",
-            "id": "component-DashboardComponent-425e8fdd31ac1cb28d96936873e2a781ba8ec1d5a58a3df4eb9de32a1ef289b01387ae1fb1fdb0261ffd2398309e2b7db3f4abb93ba7cd311980ae8d27cb69eb",
-            "file": "src/app/dashboard/dashboard.component.ts",
-            "encapsulation": [],
-            "entryComponents": [],
-            "inputs": [],
-            "outputs": [],
-            "providers": [],
-            "selector": "app-dashboard",
-            "styleUrls": [],
-            "styles": [],
-            "templateUrl": [
-                "./dashboard.component.html"
-            ],
-            "viewProviders": [],
-            "hostDirectives": [],
-            "inputsClass": [],
-            "outputsClass": [],
-            "propertiesClass": [],
-            "methodsClass": [],
-            "deprecated": false,
-            "deprecationMessage": "",
-            "hostBindings": [],
-            "hostListeners": [],
-            "standalone": false,
-            "imports": [],
-            "description": "",
-            "rawdescription": "\n",
-            "type": "component",
-            "sourceCode": "import { Component } from '@angular/core';\n\n@Component({\n  selector: 'app-dashboard',\n  imports: [],\n  templateUrl: './dashboard.component.html',\n  styleUrl: './dashboard.component.scss',\n})\nexport class DashboardComponent {\n\n}\n",
-            "styleUrl": "./dashboard.component.scss",
-            "assetsDirs": [],
-            "styleUrlsData": "",
-            "stylesData": "",
-            "extends": [],
-            "templateData": "<p>dashboard works!</p>\n"
-        },
-        {
             "name": "HeaderComponent",
             "id": "component-HeaderComponent-48b9abe37706bc42f20cfa97ed9f943678344ea7d254c0c82183c657750c2191b43486fe730c778627b2ea6aa0e2f33a7abcf3ce08b68ad18b062ad99ea97acb",
             "file": "src/stories/header.component.ts",
@@ -1506,120 +540,6 @@
             ],
             "stylesData": "",
             "extends": []
-        },
-        {
-            "name": "InboxComponent",
-            "id": "component-InboxComponent-e23e5bf754b646d92f75f60999f9ba923d5c5d988b86beb8c3a1f02dadf6b2db940e23492ffd096053f3c6484bbbda45229d8c5b0cb8ea3fee14ab307bbe7ff0",
-            "file": "src/app/inbox/inbox.component.ts",
-            "encapsulation": [],
-            "entryComponents": [],
-            "inputs": [],
-            "outputs": [],
-            "providers": [],
-            "selector": "app-inbox",
-            "styleUrls": [],
-            "styles": [],
-            "templateUrl": [
-                "./inbox.component.html"
-            ],
-            "viewProviders": [],
-            "hostDirectives": [],
-            "inputsClass": [],
-            "outputsClass": [],
-            "propertiesClass": [],
-            "methodsClass": [],
-            "deprecated": false,
-            "deprecationMessage": "",
-            "hostBindings": [],
-            "hostListeners": [],
-            "standalone": false,
-            "imports": [],
-            "description": "",
-            "rawdescription": "\n",
-            "type": "component",
-            "sourceCode": "import { Component } from '@angular/core';\n\n@Component({\n  selector: 'app-inbox',\n  imports: [],\n  templateUrl: './inbox.component.html',\n  styleUrl: './inbox.component.scss',\n})\nexport class InboxComponent {\n\n}\n",
-            "styleUrl": "./inbox.component.scss",
-            "assetsDirs": [],
-            "styleUrlsData": "",
-            "stylesData": "",
-            "extends": [],
-            "templateData": "<p>inbox works!</p>\n"
-        },
-        {
-            "name": "IncomesComponent",
-            "id": "component-IncomesComponent-a18505a37b40b9a5d4e443eda4eba1ffbe0b6fcb6d3a0f08e5b50d231af2a95b1f5d96f1c8d1f99b683eb7d406b96e6469cf8fce42a9fc3bad4f4bcad9f785ef",
-            "file": "src/app/incomes/incomes.component.ts",
-            "encapsulation": [],
-            "entryComponents": [],
-            "inputs": [],
-            "outputs": [],
-            "providers": [],
-            "selector": "app-incomes",
-            "styleUrls": [],
-            "styles": [],
-            "templateUrl": [
-                "./incomes.component.html"
-            ],
-            "viewProviders": [],
-            "hostDirectives": [],
-            "inputsClass": [],
-            "outputsClass": [],
-            "propertiesClass": [],
-            "methodsClass": [],
-            "deprecated": false,
-            "deprecationMessage": "",
-            "hostBindings": [],
-            "hostListeners": [],
-            "standalone": false,
-            "imports": [],
-            "description": "",
-            "rawdescription": "\n",
-            "type": "component",
-            "sourceCode": "import { Component } from '@angular/core';\n\n@Component({\n  selector: 'app-incomes',\n  imports: [],\n  templateUrl: './incomes.component.html',\n  styleUrl: './incomes.component.scss',\n})\nexport class IncomesComponent {\n\n}\n",
-            "styleUrl": "./incomes.component.scss",
-            "assetsDirs": [],
-            "styleUrlsData": "",
-            "stylesData": "",
-            "extends": [],
-            "templateData": "<p>incomes works!</p>\n"
-        },
-        {
-            "name": "MenuBarComponent",
-            "id": "component-MenuBarComponent-9c1d0341d9fdc7f77e90b51cbbd453ee8dad62c7940f325367728b61984c0217036534a0b4553d1bc98cda16d98f764cff7672ab930d74ba75cfe4e3b9ae5857",
-            "file": "src/app/menu-bar/menu-bar.component.ts",
-            "encapsulation": [],
-            "entryComponents": [],
-            "inputs": [],
-            "outputs": [],
-            "providers": [],
-            "selector": "app-menu-bar",
-            "styleUrls": [],
-            "styles": [],
-            "templateUrl": [
-                "./menu-bar.component.html"
-            ],
-            "viewProviders": [],
-            "hostDirectives": [],
-            "inputsClass": [],
-            "outputsClass": [],
-            "propertiesClass": [],
-            "methodsClass": [],
-            "deprecated": false,
-            "deprecationMessage": "",
-            "hostBindings": [],
-            "hostListeners": [],
-            "standalone": false,
-            "imports": [],
-            "description": "",
-            "rawdescription": "\n",
-            "type": "component",
-            "sourceCode": "import { Component } from '@angular/core';\n\n@Component({\n  selector: 'app-menu-bar',\n  imports: [],\n  templateUrl: './menu-bar.component.html',\n  styleUrl: './menu-bar.component.scss',\n})\nexport class MenuBarComponent {\n\n}\n",
-            "styleUrl": "./menu-bar.component.scss",
-            "assetsDirs": [],
-            "styleUrlsData": "",
-            "stylesData": "",
-            "extends": [],
-            "templateData": "<p>menu-bar works!</p>\n"
         },
         {
             "name": "PageComponent",
@@ -1719,49 +639,13 @@
     "modules": [
         {
             "name": "ApolloClientModule",
-            "id": "module-ApolloClientModule-19a0f2c09338164169bc9a1b815481a63d7859bdc813d145568deefeff85f9aefa9078e404853d6cb716ad3579c7d5056f7b054f67a95746ef72a12d40e83994",
-            "description": "",
-            "deprecationMessage": "",
-            "deprecated": false,
-            "file": "src/app/apollo-client/apollo-client.module copy.ts",
-            "methods": [],
-            "sourceCode": "import { CommonModule } from '@angular/common';\nimport { HttpClientModule } from '@angular/common/http';\nimport {\n  NgModule,\n  Optional,\n  SkipSelf,\n  ModuleWithProviders,\n  Inject,\n} from '@angular/core';\n\n// Apollo.\nimport { APOLLO_OPTIONS } from 'apollo-angular';\nimport { HttpLink } from 'apollo-angular/http';\nimport { ApolloLink, InMemoryCache, NextLink } from '@apollo/client/core';\n\n// Files.\n// import extractFiles from \"extract-files/extractFiles.mjs\";\n\n// Config.\nimport { uri } from './apollo-client.config';\n// import { CryptocalStorage } from '../crypto/cryptocal-storage.class';\n\nconst basic = new ApolloLink((operation, forward: NextLink) => {\n  operation.setContext({\n    headers: {\n      Accept: 'charset=utf-8',\n    },\n  });\n  return forward(operation);\n});\n\nconst auth = new ApolloLink((operation, forward: NextLink) => {\n  operation.setContext({\n    headers: {\n      Authorization: localStorage.getItem('token'),\n    },\n  });\n  return forward(operation);\n});\n\n@NgModule({\n  declarations: [],\n  imports: [\n    CommonModule,\n\n    // Apollo.\n    // HttpClientModule,\n    // ApolloModule,\n  ],\n  providers: [\n        {\n          provide: APOLLO_OPTIONS,\n          useFactory(httpLink: HttpLink): any {\n            return {\n              cache: new InMemoryCache(),\n              link: ApolloLink.from([\n                basic,\n                new ApolloLink((operation, forward: NextLink) => {\n                  operation.setContext({\n                    headers: {\n                      Authorization: localStorage.getItem('token') // cryptocalStorage?.get('token') || '',\n                    },\n                  });\n                  return forward(operation);\n                }),\n                httpLink.create({ uri }),\n              ]),\n              withCredentials: true,\n              // extractFiles,\n            };\n          },\n          deps: [HttpLink],\n        },\n      ],\n  // providers: [\n  //   {\n  //     provide: APOLLO_OPTIONS,\n  //     useFactory(httpLink: HttpLink) {\n  //       return {\n  //         cache: new InMemoryCache(),\n  //         link: ApolloLink.from([basic, auth, httpLink.create({ uri })]),\n  //         withCredentials: true,\n  //         // extractFiles,\n  //       };\n  //     },\n  //     deps: [HttpLink],\n  //   },\n  // ],\n})\nexport class ApolloClientModule {\n  /**\n   *\n   * @param config\n   * @returns\n   */\n  //  static forRoot(\n  //   @Optional() config?: SCalculatorConfiguration\n  // ): ModuleWithProviders<SCalculatorModule> {\n  //   return {\n  //     ngModule: SCalculatorModule,\n  //     providers: [\n  //       SCalculatorConfig,\n  //       { provide: CALCULATOR_CONFIG, useValue: config },\n  //     ],\n  //   };\n  // }\n\n  /**\n   *\n   * @param config\n   * @returns\n   */\n  // static forChild(\n  //   // @Inject(CryptocalStorage) cryptocalStorage?: CryptocalStorage<'w', 'token'>\n  // ): ModuleWithProviders<ApolloClientModule> {\n  //   return {\n  //     ngModule: ApolloClientModule,\n  //     providers: [\n  //       {\n  //         provide: APOLLO_OPTIONS,\n  //         useFactory(httpLink: HttpLink): any {\n  //           return {\n  //             cache: new InMemoryCache(),\n  //             link: ApolloLink.from([\n  //               basic,\n  //               new ApolloLink((operation, forward: NextLink) => {\n  //                 operation.setContext({\n  //                   headers: {\n  //                     Authorization: localStorage.getItem('token') // cryptocalStorage?.get('token') || '',\n  //                   },\n  //                 });\n  //                 return forward(operation);\n  //               }),\n  //               httpLink.create({ uri }),\n  //             ]),\n  //             withCredentials: true,\n  //             // extractFiles,\n  //           };\n  //         },\n  //         deps: [HttpLink],\n  //       },\n  //     ],\n  //   };\n  // }\n\n  /**\n   *\n   * @param parentModule\n   */\n  constructor(@Optional() @SkipSelf() parentModule?: ApolloClientModule) {\n    if (parentModule) {\n      throw new Error(\n        `${ApolloClientModule.name} is already loaded. Import it in the AppModule only`\n      );\n    }\n  }\n}\n",
-            "children": [
-                {
-                    "type": "providers",
-                    "elements": []
-                },
-                {
-                    "type": "declarations",
-                    "elements": []
-                },
-                {
-                    "type": "imports",
-                    "elements": []
-                },
-                {
-                    "type": "exports",
-                    "elements": []
-                },
-                {
-                    "type": "bootstrap",
-                    "elements": []
-                },
-                {
-                    "type": "classes",
-                    "elements": []
-                }
-            ]
-        },
-        {
-            "name": "ApolloClientModule",
-            "id": "module-ApolloClientModule-e788a34794848fb277496cd8b4a9e56740e36b0a69b8829342b86aad6c56e0802b08e1f3829deb3fffc78e5547da2c00a8e91e7395449815b9fb0fb92286377c-1",
+            "id": "module-ApolloClientModule-c8fa4e752b4aec90a5349cbd05e2d54ab79de88c435bb9f8b887cf70a1d0a47a3f7c703bd35d82e6b7380a49c71b57527003bd60897dbcbb444e45adca3ef9af",
             "description": "",
             "deprecationMessage": "",
             "deprecated": false,
             "file": "src/app/apollo-client/apollo-client.module.ts",
             "methods": [],
-            "sourceCode": "import { CommonModule } from '@angular/common';\nimport { HttpClientModule } from '@angular/common/http';\nimport {\n  NgModule,\n  Optional,\n  SkipSelf,\n  ModuleWithProviders,\n  Inject,\n} from '@angular/core';\n\n// Apollo.\nimport { APOLLO_OPTIONS } from 'apollo-angular';\nimport { HttpLink } from 'apollo-angular/http';\nimport { ApolloLink, InMemoryCache, NextLink } from '@apollo/client/core';\n\n// Files.\n// import extractFiles from \"extract-files/extractFiles.mjs\";\n\n// Config.\nimport { uri } from './apollo-client.config';\n// import { CryptocalStorage } from '../crypto/cryptocal-storage.class';\n\n\nconst basic = new ApolloLink((operation, forward: NextLink) => {\n  operation.setContext({\n    headers: {\n      Accept: 'charset=utf-8',\n    },\n  });\n  return forward(operation);\n});\n\nconst auth = new ApolloLink((operation, forward: NextLink) => {\n  operation.setContext({\n    headers: {\n      Accept: 'charset=utf-8',\n      Authorization: localStorage.getItem('token'),\n    },\n  });\n  return forward(operation);\n});\n\n@NgModule({\n  imports: [HttpClientModule],\n  providers: [\n    // Basic Apollo configuration.\n    {\n      provide: APOLLO_OPTIONS,\n      useFactory: (httpLink: HttpLink) => ({\n        cache: new InMemoryCache(),\n        link: httpLink.create({ uri: 'https://your.graphql.api/graphql' }),\n      }),\n      deps: [HttpLink],\n    }\n    // Advanced Apollo configuration with auth link.\n    // {\n    //   provide: APOLLO_OPTIONS,\n    //   useFactory(httpLink: HttpLink): any {\n    //     return {\n    //       cache: new InMemoryCache(),\n    //       link: ApolloLink.from([\n    //         basic,\n    //         new ApolloLink((operation, forward: NextLink) => {\n    //           operation.setContext({\n    //             headers: {\n    //               Authorization: localStorage.getItem('token') || '' // cryptocalStorage?.get('token') || '',\n    //             },\n    //           });\n    //           return forward(operation);\n    //         }),\n    //         httpLink.create({ uri: 'https://localhost:3000/graphql' }),\n    //       ]),\n    //       withCredentials: true,\n    //       // extractFiles,\n    //     };\n    //   },\n    //   deps: [HttpLink],\n    // },\n  ],\n})\nexport class ApolloClientModule {}",
+            "sourceCode": "import { CommonModule } from '@angular/common';\nimport { HttpClientModule } from '@angular/common/http';\nimport {\n  NgModule,\n  Optional,\n  SkipSelf,\n  ModuleWithProviders,\n  Inject,\n} from '@angular/core';\n\n// Apollo.\nimport { APOLLO_OPTIONS } from 'apollo-angular';\nimport { HttpLink } from 'apollo-angular/http';\nimport {\n  ApolloLink,\n  InMemoryCache,\n  // NextLink\n} from '@apollo/client/core';\n\n// Files.\n// import extractFiles from \"extract-files/extractFiles.mjs\";\n\n// Config.\nimport { uri } from './apollo-client.config';\n// import { CryptocalStorage } from '../crypto/cryptocal-storage.class';\n\n\n// const basic = new ApolloLink((operation, forward: NextLink) => {\n//   operation.setContext({\n//     headers: {\n//       Accept: 'charset=utf-8',\n//     },\n//   });\n//   return forward(operation);\n// });\n\n// const auth = new ApolloLink((operation, forward: NextLink) => {\n//   operation.setContext({\n//     headers: {\n//       Accept: 'charset=utf-8',\n//       Authorization: localStorage.getItem('token'),\n//     },\n//   });\n//   return forward(operation);\n// });\n\n@NgModule({\n  imports: [HttpClientModule],\n  providers: [\n    // Basic Apollo configuration.\n    {\n      provide: APOLLO_OPTIONS,\n      useFactory: (httpLink: HttpLink) => ({\n        cache: new InMemoryCache(),\n        link: httpLink.create({ uri }),\n      }),\n      deps: [HttpLink],\n    }\n    // Advanced Apollo configuration with auth link.\n    // {\n    //   provide: APOLLO_OPTIONS,\n    //   useFactory(httpLink: HttpLink): any {\n    //     return {\n    //       cache: new InMemoryCache(),\n    //       link: ApolloLink.from([\n    //         basic,\n    //         new ApolloLink((operation, forward: NextLink) => {\n    //           operation.setContext({\n    //             headers: {\n    //               Authorization: localStorage.getItem('token') || '' // cryptocalStorage?.get('token') || '',\n    //             },\n    //           });\n    //           return forward(operation);\n    //         }),\n    //         httpLink.create({ uri: 'https://localhost:3000/graphql' }),\n    //       ]),\n    //       withCredentials: true,\n    //       // extractFiles,\n    //     };\n    //   },\n    //   deps: [HttpLink],\n    // },\n  ],\n})\nexport class ApolloClientModule {}",
             "children": [
                 {
                     "type": "providers",
@@ -1843,46 +727,6 @@
                 "defaultValue": "{\n  providers: [\n    Signals,\n\n    provideHttpClient(withFetch()),\n    provideApollo(() => {\n      const httpLink = inject(HttpLink);\n      return {\n        link: httpLink.create({ uri: 'http://localhost:3000/graphql' }),\n        cache: new InMemoryCache(),\n      };\n    }),\n\n    provideAnimationsAsync(),\n    providePrimeNG({\n      theme: {\n        preset: AngularXPreset\n      }\n    }),\n    // provideZoneChangeDetection({ eventCoalescing: true }),\n    provideZonelessChangeDetection(),\n    provideRouter(routes),\n    provideClientHydration(withEventReplay()),\n    MessageService\n  ]\n}"
             },
             {
-                "name": "auth",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
-                "file": "src/app/apollo-client/apollo-client.module copy.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "unknown",
-                "defaultValue": "new ApolloLink((operation, forward: NextLink) => {\n  operation.setContext({\n    headers: {\n      Authorization: localStorage.getItem('token'),\n    },\n  });\n  return forward(operation);\n})"
-            },
-            {
-                "name": "auth",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
-                "file": "src/app/apollo-client/apollo-client.module.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "unknown",
-                "defaultValue": "new ApolloLink((operation, forward: NextLink) => {\n  operation.setContext({\n    headers: {\n      Accept: 'charset=utf-8',\n      Authorization: localStorage.getItem('token'),\n    },\n  });\n  return forward(operation);\n})"
-            },
-            {
-                "name": "basic",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
-                "file": "src/app/apollo-client/apollo-client.module copy.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "unknown",
-                "defaultValue": "new ApolloLink((operation, forward: NextLink) => {\n  operation.setContext({\n    headers: {\n      Accept: 'charset=utf-8',\n    },\n  });\n  return forward(operation);\n})"
-            },
-            {
-                "name": "basic",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
-                "file": "src/app/apollo-client/apollo-client.module.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "unknown",
-                "defaultValue": "new ApolloLink((operation, forward: NextLink) => {\n  operation.setContext({\n    headers: {\n      Accept: 'charset=utf-8',\n    },\n  });\n  return forward(operation);\n})"
-            },
-            {
                 "name": "bootstrap",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
@@ -1962,7 +806,7 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Routes",
-                "defaultValue": "[\n  { path: '', loadComponent: () => \"import('./dashboard/dashboard.component').then(m => m.DashboardComponent)\" },\n\n  { path: 'calculations', loadComponent: () => \"import('@angular.x/calculations').then(m => m.Calculations)\" },\n\n  { path: 'transactions', loadComponent: () => \"import('@angular.x/transactions').then(m => m.Transactions)\" },\n  { path: 'costs', loadComponent: () => \"import('@angular.x/costs').then(m => m.Costs)\" },\n  { path: 'expenses', loadComponent: () => \"import('@angular.x/expenses').then(m => m.Expenses)\" },\n\n  { path: 'incomes', loadComponent: () => \"import('@angular.x/incomes').then(m => m.Incomes)\" },\n  { path: 'menu-bar', loadComponent: () => \"import('./menu-bar/menu-bar.component').then(m => m.MenuBarComponent)\" },\n\n]"
+                "defaultValue": "[\n  { path: '', loadComponent: () => \"import('@angular.x/dashboard').then(m => m.Dashboard)\" },\n\n  { path: 'calculations', loadComponent: () => \"import('@angular.x/calculations').then(m => m.Calculations)\" },\n\n  { path: 'transactions', loadComponent: () => \"import('@angular.x/transactions').then(m => m.Transactions)\" },\n  { path: 'costs', loadComponent: () => \"import('@angular.x/costs').then(m => m.Costs)\" },\n  { path: 'expenses', loadComponent: () => \"import('@angular.x/expenses').then(m => m.Expenses)\" },\n\n  { path: 'incomes', loadComponent: () => \"import('@angular.x/incomes').then(m => m.Incomes)\" },\n\n]"
             },
             {
                 "name": "serverConfig",
@@ -2127,50 +971,6 @@
                     "defaultValue": "{\n  providers: [\n    Signals,\n\n    provideHttpClient(withFetch()),\n    provideApollo(() => {\n      const httpLink = inject(HttpLink);\n      return {\n        link: httpLink.create({ uri: 'http://localhost:3000/graphql' }),\n        cache: new InMemoryCache(),\n      };\n    }),\n\n    provideAnimationsAsync(),\n    providePrimeNG({\n      theme: {\n        preset: AngularXPreset\n      }\n    }),\n    // provideZoneChangeDetection({ eventCoalescing: true }),\n    provideZonelessChangeDetection(),\n    provideRouter(routes),\n    provideClientHydration(withEventReplay()),\n    MessageService\n  ]\n}"
                 }
             ],
-            "src/app/apollo-client/apollo-client.module copy.ts": [
-                {
-                    "name": "auth",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/apollo-client/apollo-client.module copy.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "unknown",
-                    "defaultValue": "new ApolloLink((operation, forward: NextLink) => {\n  operation.setContext({\n    headers: {\n      Authorization: localStorage.getItem('token'),\n    },\n  });\n  return forward(operation);\n})"
-                },
-                {
-                    "name": "basic",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/apollo-client/apollo-client.module copy.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "unknown",
-                    "defaultValue": "new ApolloLink((operation, forward: NextLink) => {\n  operation.setContext({\n    headers: {\n      Accept: 'charset=utf-8',\n    },\n  });\n  return forward(operation);\n})"
-                }
-            ],
-            "src/app/apollo-client/apollo-client.module.ts": [
-                {
-                    "name": "auth",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/apollo-client/apollo-client.module.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "unknown",
-                    "defaultValue": "new ApolloLink((operation, forward: NextLink) => {\n  operation.setContext({\n    headers: {\n      Accept: 'charset=utf-8',\n      Authorization: localStorage.getItem('token'),\n    },\n  });\n  return forward(operation);\n})"
-                },
-                {
-                    "name": "basic",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/apollo-client/apollo-client.module.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "unknown",
-                    "defaultValue": "new ApolloLink((operation, forward: NextLink) => {\n  operation.setContext({\n    headers: {\n      Accept: 'charset=utf-8',\n    },\n  });\n  return forward(operation);\n})"
-                }
-            ],
             "src/main.server.ts": [
                 {
                     "name": "bootstrap",
@@ -2238,7 +1038,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Routes",
-                    "defaultValue": "[\n  { path: '', loadComponent: () => \"import('./dashboard/dashboard.component').then(m => m.DashboardComponent)\" },\n\n  { path: 'calculations', loadComponent: () => \"import('@angular.x/calculations').then(m => m.Calculations)\" },\n\n  { path: 'transactions', loadComponent: () => \"import('@angular.x/transactions').then(m => m.Transactions)\" },\n  { path: 'costs', loadComponent: () => \"import('@angular.x/costs').then(m => m.Costs)\" },\n  { path: 'expenses', loadComponent: () => \"import('@angular.x/expenses').then(m => m.Expenses)\" },\n\n  { path: 'incomes', loadComponent: () => \"import('@angular.x/incomes').then(m => m.Incomes)\" },\n  { path: 'menu-bar', loadComponent: () => \"import('./menu-bar/menu-bar.component').then(m => m.MenuBarComponent)\" },\n\n]"
+                    "defaultValue": "[\n  { path: '', loadComponent: () => \"import('@angular.x/dashboard').then(m => m.Dashboard)\" },\n\n  { path: 'calculations', loadComponent: () => \"import('@angular.x/calculations').then(m => m.Calculations)\" },\n\n  { path: 'transactions', loadComponent: () => \"import('@angular.x/transactions').then(m => m.Transactions)\" },\n  { path: 'costs', loadComponent: () => \"import('@angular.x/costs').then(m => m.Costs)\" },\n  { path: 'expenses', loadComponent: () => \"import('@angular.x/expenses').then(m => m.Expenses)\" },\n\n  { path: 'incomes', loadComponent: () => \"import('@angular.x/incomes').then(m => m.Incomes)\" },\n\n]"
                 }
             ],
             "src/app/app.routes.server.ts": [
@@ -2298,16 +1098,11 @@
                 "name": "incomes",
                 "kind": "route-path",
                 "filename": "src/app/app.routes.ts"
-            },
-            {
-                "name": "menu-bar",
-                "kind": "route-path",
-                "filename": "src/app/app.routes.ts"
             }
         ]
     },
     "coverage": {
-        "count": 5,
+        "count": 7,
         "status": "low",
         "files": [
             {
@@ -2341,50 +1136,10 @@
                 "status": "low"
             },
             {
-                "filePath": "src/app/apollo-client/apollo-client.module copy.ts",
-                "type": "variable",
-                "linktype": "miscellaneous",
-                "linksubtype": "variable",
-                "name": "auth",
-                "coveragePercent": 0,
-                "coverageCount": "0/1",
-                "status": "low"
-            },
-            {
-                "filePath": "src/app/apollo-client/apollo-client.module copy.ts",
-                "type": "variable",
-                "linktype": "miscellaneous",
-                "linksubtype": "variable",
-                "name": "basic",
-                "coveragePercent": 0,
-                "coverageCount": "0/1",
-                "status": "low"
-            },
-            {
-                "filePath": "src/app/apollo-client/apollo-client.module.ts",
-                "type": "variable",
-                "linktype": "miscellaneous",
-                "linksubtype": "variable",
-                "name": "auth",
-                "coveragePercent": 0,
-                "coverageCount": "0/1",
-                "status": "low"
-            },
-            {
-                "filePath": "src/app/apollo-client/apollo-client.module.ts",
-                "type": "variable",
-                "linktype": "miscellaneous",
-                "linksubtype": "variable",
-                "name": "basic",
-                "coveragePercent": 0,
-                "coverageCount": "0/1",
-                "status": "low"
-            },
-            {
                 "filePath": "src/app/apollo-client/apollo.service.ts",
                 "type": "injectable",
                 "linktype": "injectable",
-                "name": "ExampleService",
+                "name": "GraphqlService",
                 "coveragePercent": 0,
                 "coverageCount": "0/3",
                 "status": "low"
@@ -2476,78 +1231,6 @@
                 "name": "App",
                 "coveragePercent": 0,
                 "coverageCount": "0/12",
-                "status": "low"
-            },
-            {
-                "filePath": "src/app/core/deferred.class.ts",
-                "type": "class",
-                "linktype": "classe",
-                "name": "Deferred",
-                "coveragePercent": 0,
-                "coverageCount": "0/5",
-                "status": "low"
-            },
-            {
-                "filePath": "src/app/costs/costs.component.ts",
-                "type": "component",
-                "linktype": "component",
-                "name": "CostsComponent",
-                "coveragePercent": 0,
-                "coverageCount": "0/1",
-                "status": "low"
-            },
-            {
-                "filePath": "src/app/crypto/cryptesession-storage.class.ts",
-                "type": "class",
-                "linktype": "classe",
-                "name": "CryptessionStorage",
-                "coveragePercent": 0,
-                "coverageCount": "0/1",
-                "status": "low"
-            },
-            {
-                "filePath": "src/app/crypto/crypto-storage.class.ts",
-                "type": "injectable",
-                "linktype": "injectable",
-                "name": "CryptoStorage",
-                "coveragePercent": 0,
-                "coverageCount": "0/12",
-                "status": "low"
-            },
-            {
-                "filePath": "src/app/dashboard/dashboard.component.ts",
-                "type": "component",
-                "linktype": "component",
-                "name": "DashboardComponent",
-                "coveragePercent": 0,
-                "coverageCount": "0/1",
-                "status": "low"
-            },
-            {
-                "filePath": "src/app/inbox/inbox.component.ts",
-                "type": "component",
-                "linktype": "component",
-                "name": "InboxComponent",
-                "coveragePercent": 0,
-                "coverageCount": "0/1",
-                "status": "low"
-            },
-            {
-                "filePath": "src/app/incomes/incomes.component.ts",
-                "type": "component",
-                "linktype": "component",
-                "name": "IncomesComponent",
-                "coveragePercent": 0,
-                "coverageCount": "0/1",
-                "status": "low"
-            },
-            {
-                "filePath": "src/app/menu-bar/menu-bar.component.ts",
-                "type": "component",
-                "linktype": "component",
-                "name": "MenuBarComponent",
-                "coveragePercent": 0,
-                "coverageCount": "0/1",
                 "status": "low"
             },
             {
