@@ -14,7 +14,152 @@
     "esModuleInterop": true,
     "experimentalDecorators": true,
     "moduleResolution": "bundler",
-    "paths": {},
+    "paths": {
+      "@angular-package/signals": ["./projects/@angular-package/signals/index.ts"],
+      "@angular-package/class": ["./projects/@angular-package/class/index.ts"],
+      "@angular-package/layout": ["./projects/@angular-package/layout/index.ts"],
+      "@angular-package/indexeddb": ["./projects/@angular-package/indexeddb/index.ts"],
+
+      "@angular.x/chat": ["./projects/chat/src/public-api.ts"],
+
+      "@angular.x/calculation": ["./projects/calculation/src/public-api.ts"],
+      "@angular.x/calculations": ["./projects/calculations/src/public-api.ts"],
+      "@angular.x/costs": ["./projects/costs/src/public-api.ts"],
+      "@angular.x/costs-table": ["./projects/costs-table/src/public-api.ts"],
+      "@angular.x/dashboard": ["./projects/dashboard/src/public-api.ts"],
+      "@angular.x/expenses": ["./projects/expenses/src/public-api.ts"],
+      "@angular.x/expenses-table": ["./projects/expenses-table/src/public-api.ts"],
+      "@angular.x/incomes": ["./projects/incomes/src/public-api.ts"],
+      "@angular.x/transactions": ["./projects/transactions/src/public-api.ts"],
+      "@angular.x/table": ["./projects/table/src/public-api.ts"],
+
+      "@angular.x/layout": ["./projects/layout/src/public-api.ts"],
+      "@angular.x/layout-area": ["./projects/layout-area/src/public-api.ts"],
+      "@angular.x/layout-body": ["./projects/layout-body/src/public-api.ts"],
+      "@angular.x/layout-bottom": ["./projects/layout-bottom/src/public-api.ts"],
+      "@angular.x/layout-center": ["./projects/layout-center/src/public-api.ts"],
+      "@angular.x/layout-left": ["./projects/layout-left/src/public-api.ts"],
+      "@angular.x/layout-right": ["./projects/layout-right/src/public-api.ts"],
+      "@angular.x/layout-top": ["./projects/layout-top/src/public-api.ts"],
+      "@angular.x/panel": ["./projects/panel/src/public-api.ts"],
+
+      "@angular.x/menu": ["./projects/menu/src/public-api.ts"],
+      "@angular.x/menu-bar": ["./projects/menu-bar/src/public-api.ts"],
+      "@angular.x/section-header": ["./projects/section-header/src/public-api.ts"],
+      "@angular.x/sidebar": ["./projects/sidebar/src/public-api.ts"],
+      "@angular.x/toolbar": ["./projects/toolbar/src/public-api.ts"],
+
+      "@angular.x/signin": ["./projects/signin/src/public-api.ts"],
+      "@angular.x/signup": ["./projects/signup/src/public-api.ts"],
+
+      "@typedly/expenses": ["./projects/@typedly/expenses/index.ts"],
+      "@typedly/sidebar": ["./projects/@typedly/sidebar/index.ts"],
+      "@typedly/signals": ["./projects/@typedly/signals/index.ts"],
+      "@typedly/ui": ["./projects/@typedly/ui/index.ts"],
+      "@typedly/layout": ["./projects/@typedly/layout/index.ts"],
+      "@typedly/transactions": ["./projects/@typedly/transactions/index.ts"],
+
+      "@typescript-package/core": ["./projects/@typescript-package/core/index.ts"],
+      "@typescript-package/indexeddb": ["./projects/@typescript-package/indexeddb/index.ts"],
+
+      "@typescript-package/ui-class": [
+        "./projects/@typescript-package/ui-class/index.ts"
+      ],
+      "calculation": [
+        "./dist/calculation"
+      ],
+      "calculations": [
+        "./dist/calculations"
+      ],
+
+      "chat": [
+        "./dist/chat"
+      ],
+      "costs": [
+        "./dist/costs"
+      ],
+      "costs-table": [
+        "./dist/costs-table"
+      ],
+      "dashboard": [
+        "./dist/dashboard"
+      ],
+      "expenses": [
+        "./dist/expenses"
+      ],
+      "expenses-table": [
+        "./dist/expenses-table"
+      ],
+      "incomes": [
+        "./dist/incomes"
+      ],
+      "layout": [
+        "./dist/layout"
+      ],
+      "layout-area": [
+        "./dist/layout-area"
+      ],
+      "layout-body": [
+        "./dist/layout-body"
+      ],
+      "layout-bottom": [
+        "./dist/layout-bottom"
+      ],
+      "layout-center": [
+        "./dist/layout-center"
+      ],
+      "layout-left": [
+        "./dist/layout-left"
+      ],
+      "layout-right": [
+        "./dist/layout-right"
+      ],
+      "layout-side": [
+        "./dist/layout-side"
+      ],
+      "layout-top": [
+        "./dist/layout-top"
+      ],
+      "menu": [
+        "./dist/menu"
+      ],
+      "menu-bar": [
+        "./dist/menu-bar"
+      ],
+      "panel": [
+        "./dist/panel"
+      ],
+      "projects": [
+        "./dist/projects"
+      ],
+      "schedule": [
+        "./dist/schedule"
+      ],
+      "section-header": [
+        "./dist/section-header"
+      ],
+      "sidebar": [
+        "./dist/sidebar"
+      ],
+      "signin": [
+        "./dist/signin"
+      ],
+      "signup": [
+        "./dist/signup"
+      ],
+      "table": [
+        "./dist/table"
+      ],
+      "toolbar": [
+        "./dist/toolbar"
+      ],
+      "transactions": [
+        "./dist/transactions"
+      ],
+      "transactions-table": [
+        "./dist/transactions-table"
+      ]
+    },
     "importHelpers": true,
     "target": "ES2022",
     "module": "ES2022"
@@ -25,5 +170,192 @@
     "strictInputAccessModifiers": true,
     "strictTemplates": true
   },
-  "references": []
+  "references": [
+    {
+      "path": "./projects/signin/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/signin/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/signup/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/signup/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/layout/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/layout/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/layout-top/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/layout-top/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/layout-center/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/layout-center/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/layout-bottom/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/layout-bottom/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/layout-left/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/layout-left/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/layout-right/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/layout-right/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/layout-body/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/layout-body/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/menu-bar/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/menu-bar/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/costs/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/costs/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/incomes/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/incomes/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/section-header/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/section-header/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/costs-table/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/costs-table/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/sidebar/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/sidebar/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/chat/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/chat/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/layout-side/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/layout-side/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/layout-area/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/layout-area/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/transactions/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/transactions/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/expenses/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/expenses/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/toolbar/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/toolbar/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/menu/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/menu/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/calculations/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/calculations/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/calculation/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/calculation/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/panel/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/panel/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/projects/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/projects/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/expenses-table/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/expenses-table/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/schedule/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/schedule/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/transactions-table/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/transactions-table/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/table/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/table/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/dashboard/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/dashboard/tsconfig.spec.json"
+    }
+  ]
 }
